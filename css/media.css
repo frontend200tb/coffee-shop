@@ -1,0 +1,1068 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 950px;
+  }
+
+  .col-4 {
+    width: 41.335%;
+  }
+
+  .header__li {
+    padding-right: 30px;
+  }
+  .header__li_photo {
+    width: 257px;
+  }
+
+  .process {
+    padding: 130px 0 40px;
+  }
+  .process__col-4 {
+    margin: 0 auto 30px;
+  }
+
+  .our-history {
+    padding: 60px 0;
+  }
+  .our-history__card-box {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 366px;
+  }
+  .our-history__box-about {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+  .our-history__box-about {
+    padding: 45px 58px 50px;
+  }
+  .our-history__mean {
+    max-width: 791px;
+  }
+
+  .product {
+    padding: 60px 0;
+  }
+  .product__col-4 {
+    margin: 0 auto;
+  }
+
+  .cta {
+    padding: 60px 0;
+  }
+  .cta__card-box {
+    padding: 76px 43px 77px 43px;
+  }
+
+  .menu {
+    padding: 60px 0;
+  }
+  .menu__card-box {
+    padding: 18px;
+  }
+  .menu__subtitle {
+    font-size: 22px;
+    padding-right: 38px;
+  }
+
+  .testimonial {
+    padding: 60px 0;
+  }
+  .testimonial__card-box {
+    width: 530px;
+  }
+
+  .reservation {
+    padding: 60px 0;
+  }
+  .reservation__photo {
+    width: 50%;
+  }
+  .reservation__form-box {
+    padding: 40px 44px;
+  }
+  .reservation__title {
+    margin-bottom: 30px;
+  }
+  .reservation__input {
+    margin-bottom: 18px;
+  }
+  .reservation__input_margin {
+    margin-bottom: 35px;
+  }
+
+  .news {
+    padding: 60px 0 30px;
+  }
+  .news__col-4 {
+    margin: 0 auto 30px;
+  }
+
+  .footer {
+    padding: 68px 0 0;
+  }
+  .footer__menu-box {
+    flex-wrap: wrap;
+  }
+  .footer__label {
+    margin: 0 auto;
+  }
+  .footer__photo {
+    padding-right: 0;
+  }
+  .footer__photo, .footer__nav {
+    margin: 0 auto 25px;
+  }
+}
+
+
+
+
+@media (max-width: 992px) {
+  bodylock {
+    overflow: hidden;
+  }
+
+  .container {
+    max-width: 700px;
+  }
+
+  .col-4 {
+    width: 100%;
+  }
+  .col-6 {
+    width: 80%;
+  }
+
+  .title {
+    line-height: 120%;
+    font-size: 44px;
+  }
+
+  .pod-title {
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .header__nav {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: #14110E;
+    transition: all 0.3s ease 0s;
+    padding: 150px 10px 20px 50px;
+  }
+  .header__ul {
+    display: block;
+  }
+  .header__li {
+    margin-bottom: 50px;
+  }
+  .header__link {
+    font-size: 24px;
+  }
+
+  .header__burger {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    z-index: 3;
+  }
+  .header__burger::before, .header__burger::after {
+    content: "";
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+  .header__burger::before {
+    top: 0;
+  }
+  .header__burger::after {
+    bottom: 0;
+  }
+  
+  .header__active {
+    top: 0;
+  }
+  .header__active::before {
+    transform: rotate(45deg);
+    top: 9px;
+  }
+  .header__active::after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+  }
+  .header__active__span {
+    transform: scale(0);
+  }
+  .header__logo_icon-search {
+    margin-left: auto;
+  }
+
+  span {
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+    transition: all 0.3s ease 0s;
+  }
+
+  .header__active span {
+    transform: scale(0);
+  }
+
+  .hero__title {
+    max-width: 518px;
+    font-size: 65px;
+    line-height: 121%;
+    margin-bottom: 26px;
+  }
+
+  .process {
+    padding: 125px 0 25px;
+  }
+  .process__row {
+    margin: 0;
+  }
+  .process__card-box {
+    text-align: center;
+  }
+  .process__card-box_photo {
+    height: 350px;
+  }
+
+  .our-history {
+    padding: 55px 0;
+  }
+  .our-history__card-box {
+    grid-gap: 10px;
+  }
+  .our-history__photo {
+    height: 90%;
+    width: 90%;
+  }
+  .our-history__rule-photo {
+    height: 95%;
+  }
+  .our-history__title {
+    margin-bottom: 24px;
+  }
+
+  .product {
+    padding: 55px 0;
+  }
+  .product__coffee-cost {
+    display: contents;
+  }
+  .product__coffee-cost_orange {
+    display: contents;
+  }
+  .product__card-box {
+    max-width: 400px;
+    padding: 46px 30px 40px;
+    margin: 0 auto 35px;
+  }
+
+  .cta {
+    padding: 55px 0;
+  }
+  .cta__card-box {
+    padding: 56px 29px 56px 34px;
+    flex-wrap: wrap-reverse;
+  }
+  .cta__text-box {
+    margin-bottom: 45px;
+  }
+  .cta__photo {
+    margin: 0 auto;
+  }
+
+  .menu {
+    padding: 55px 0;
+  }
+  .menu__col-6 {
+    margin: 0 auto 25px;
+  }
+
+  .testimonial {
+    padding: 55px 0;
+  }
+  .testimonial__card-box {
+    padding: 35px;
+  }
+
+  .reservation {
+    padding: 55px 0;
+  }
+  .reservation__card-box {
+    position: relative;
+  }
+  .reservation__photo {
+    width: 100%;
+  }
+  .reservation__form-box {
+    max-width: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+
+  .news {
+    padding: 55px 0;
+  }
+  .news__card-box {
+    margin: 0 auto;
+  }
+  .news__name {
+    display: contents;
+  }
+  .news__name_orange {
+    display: contents;
+  }
+  .news__mean {
+    padding: 20px 0 0;
+  }
+  .news__date {
+    margin-left: 142px;
+  }
+
+  .footer__menu-box {
+    justify-content: space-between;
+  }
+  .footer__nav {
+    display: none;
+  }
+  .footer__label, .footer__photo, .footer__nav {
+    margin: 0;
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 550px;
+  }
+
+  .hero__title {
+    font-size: 58px;
+    line-height: 107%;
+    margin-bottom: 22px;
+  }
+  .hero__mean {
+    max-width: 437px;
+    margin-bottom: 39px;
+    font-size: 15px;
+  }
+  .hero__li {
+    margin-bottom: 40px;
+  }
+
+  .process {
+    padding: 100px 0 15px;
+  }
+  .process__card-box {
+    margin-bottom: 20px;
+  }
+  .process__card-box_photo {
+    height: 380px;
+  }
+  .process__card-box_title {
+    font-size: 21px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .our-history {
+    padding: 45px 0 20px;
+  }
+  .our-history__card-box {
+    grid-template-columns: 1fr;
+    grid-auto-rows: 302px;
+    text-align: center;
+    grid-gap: 27px;
+  }
+  .our-history__element-3 {
+    grid-column: 1;
+    grid-row: 3/6;
+  }
+  .our-history__element-3 {
+    grid-column: 1;
+    grid-row: 4/6;
+  }
+  .our-history__photo {
+    height: 99%;
+    width: 63%;
+  }
+  .our-history__rule-photo {
+    height: 86%;
+    width: 58%;
+  }
+  .our-history__title {
+    margin-bottom: 15px;
+  }
+  .our-history__subtitle {
+    margin-bottom: 9px;
+  }
+  .our-history__box-about {
+    max-width: 500px;
+    padding: 26px 37px 28px;
+    margin: 0 auto;
+  }
+
+  .title {
+    line-height: 110%;
+    font-size: 38px;
+  }
+
+  .subtitle {
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .pod-title {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .coffee-title {
+    font-size: 21px;
+    line-height: 22px;
+  }
+
+  .product {
+    padding: 0 0 45px;
+  }
+  .product__row {
+    margin: 0;
+  }
+  .product__title {
+    margin-bottom: 35px;
+  }
+  .product__pod-title {
+    margin-bottom: 7px;
+  }
+  .product__photo {
+    margin-bottom: 25px;
+    height: 295px;
+  }
+  .product__card-box_title {
+    margin-bottom: 20px;
+  }
+  .product__card-box {
+    max-width: 343px;
+    padding: 37px 55px 33px;
+    margin: 0 auto 32px;
+  }
+  .product__card-box_margin {
+    margin-bottom: 15px;
+  }
+  .product__coffee-cost {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .cta {
+    padding: 45px 0;
+  }
+  .cta__title {
+    margin-bottom: 25px;
+  }
+  .cta__card-box {
+    max-width: 480px;
+    flex-wrap: wrap-reverse;
+    margin: 0 auto;
+    padding: 48px 32px;
+  }
+  .cta__photo {
+    width: 49%;
+    margin: 0 auto;
+  }
+  .cta__text-box {
+    margin-bottom: 55px;
+  }
+
+  .menu {
+    padding: 45px 0;
+  }
+  .menu__row {
+    margin: 0;
+  }
+  .menu__col-6 {
+    margin: 0 auto 20px;
+  }
+  .menu__title {
+    margin-bottom: 35px;
+  }
+  .menu__icon {
+    height: 55px;
+  }
+  .menu__card-box {
+    padding: 15px;
+  }
+  .menu__subtitle {
+    font-size: 19px;
+    padding-right: 45px;
+  }
+
+  .testimonial {
+    padding: 40px 0;
+  }
+  .testimonial__pod-title {
+    margin-bottom: 8px;
+  }
+  .testimonial__title {
+    margin-bottom: 30px;
+  }
+  .testimonial__card-box {
+    margin: 17px;
+    padding: 15px;
+  }
+  .testimonial__button {
+    padding: 13px 13px 11px;
+  }
+  .testimonial__button_black {
+    margin-right: 11px;
+  }
+  .testimonial__item:before {
+    width: 44px;
+  }
+  .testimonial__item:after {
+    width: 63px;
+    left: 44px;
+  }
+  .testimonial__text {
+    max-width: 241px;
+    font-size: 14px;
+  }
+
+  .reservation {
+    padding: 55px 0 45px;
+  }
+  .reservation__form-box {
+    max-width: 444px;
+    padding: 30px 34px;
+  }
+  .reservation__pod-title {
+    margin-bottom: 9px;
+  }
+  .reservation__title {
+    margin-bottom: 25px;
+  }
+  .reservation__input {
+    margin-bottom: 14px;
+  }
+  .reservation__input_margin {
+    margin-bottom: 26px;
+  }
+
+  .news {
+    padding: 45px 0;
+  }
+  .news__row {
+    margin: 0;
+  }
+  .news__pod-title {
+    margin-bottom: 8px;
+  }
+  .news__title {
+    margin-bottom: 32px;
+  }
+  .news__text-box {
+    padding: 20px 22px 22px;
+    font-size: 16px;
+  }
+  .news__mean {
+    font-size: 18px;
+    line-height: 143%;
+    margin-bottom: 28px;
+  }
+  .news__name {
+    margin-bottom: 14px;
+    padding-right: 165px;
+  }
+  .news-title {
+    font-size: 14px;
+  }
+
+  .footer {
+    padding: 45px 0 0;
+  }
+  .footer__ul {
+    display: none;
+  }
+  .footer__menu-box {
+    margin-bottom: 68px;
+  }
+}
+
+
+
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 450px;
+  }
+
+  .col-6 {
+    width: 89%;
+  }
+
+  .header__menu {
+    padding: 45px 0 36px;
+  }
+  .header__logo_photo {
+    top: 25px;
+    height: 52px;
+  }
+  .header__logo_icon-search, .header__logo_icon-bag {
+    height: 23px;
+  }
+  .header__search-box {
+    top: 41px;
+    right: 39px;
+    height: 33px;
+  }
+  .header__li {
+    margin-bottom: 30px;
+  }
+
+  .hero {
+    min-height: 422px;
+    padding: 80px 0 141px;
+  }
+  .hero__title {
+    font-size: 50px;
+    line-height: 106%;
+    margin-bottom: 18px;
+  }
+  .hero__mean {
+    margin-bottom: 32px;
+  }
+
+  .process {
+    padding: 90px 0 10px;
+  }
+  .process__card-box {
+    margin-bottom: 10px;
+  }
+  .process__card-box_photo {
+    height: 350px;
+  }
+
+  .pod-title {
+    font-size: 14px;
+    line-height: 12px;
+  }
+
+  .title {
+    line-height: 101%;
+    font-size: 34px;
+  }
+
+  .our-history {
+    padding: 40px 0 10px;
+  }
+  .our-history__box-about {
+    max-width: 432px;
+    padding: 20px;
+  }
+  .our-history__title {
+    margin-bottom: 13px;
+  }
+
+  .coffee-title {
+    font-size: 19px;
+    line-height: 20px;
+  }
+
+  .product__title {
+    margin-bottom: 30px;
+  }
+  .product__photo {
+    margin-bottom: 23px;
+    height: 277px;
+  }
+  .product__card-box {
+    max-width: 313px;
+    padding: 30px 20px;
+    margin: 0 auto 30px;
+  }
+  .product__card-box_margin {
+    margin-bottom: 12px;
+  }
+  .product__star-title {
+    margin-bottom: 16px;
+  }
+  .product__coffee-cost {
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .cta__card-box {
+    max-width: 434px;
+    padding: 30px 22px;
+  }
+  .cta__title {
+    margin-bottom: 20px;
+  }
+  .cta__text-box {
+    margin-bottom: 40px;
+  }
+  .cta__text {
+    margin-bottom: 25px;
+  }
+
+  .menu__title {
+    margin-bottom: 30px;
+  }
+  .menu__subtitle {
+    font-size: 17px;
+    padding-right: 32px;
+  }
+
+  .testimonial__title {
+    margin-bottom: 23px;
+  }
+  .testimonial__card-box {
+    padding: 18px;
+    position: relative;
+  }
+  .testimonial__text-photo-box {
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+  .testimonial__text {
+    max-width: 295px;
+  }
+  .testimonial__name {
+    position: absolute;
+    top: 33px;
+    right: 28px;
+  }
+  .testimonial__position {
+    max-width: 107px;
+    min-height: 40px;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    right: 19px;
+  }
+  .testimonial__item:before, .testimonial__item:after {
+    top: 24px;
+  }
+  .testimonial__icon-box {
+    position: absolute;
+    top: 104px;
+    right: 20px;
+  }
+  .testimonial__button {
+    padding: 13px 13px 10px;
+  }
+
+  .reservation {
+    padding: 50px 0 45px;
+  }
+  .reservation__form-box {
+    max-width: 319px;
+    padding: 24px 20px;
+  }
+  .reservation__title {
+    margin-bottom: 22px;
+  }
+
+  .news__card-box {
+    max-width: 320px;
+  }
+  .news__photo {
+    height: 314px;
+  }
+  .news__date {
+    margin-left: 126px;
+  }
+  .news__text-box {
+    padding: 10px 15px 16px;
+  }
+  .news__name {
+    margin-bottom: 13px;
+    padding-right: 134px;
+  }
+  .news__mean {
+    padding: 15px 0 0;
+    margin-bottom: 22px;
+  }
+
+  .footer {
+    padding: 30px 0 0;
+  }
+  .footer__menu-box {
+    margin-bottom: 58px;
+  }
+  .footer__photo {
+    height: 52px;
+  }
+  .footer__title {
+    padding: 28px 0;
+  }
+  .footer__input {
+    padding: 17px 0 18px 24px;
+  }
+  .footer__button_photo {
+    height: 41px;
+  }
+}
+
+
+
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 310px;
+  }
+
+  .col-6 {
+    width: 95%;
+  }
+
+  .header__logo_icon-search {
+    padding-right: 21px;
+  }
+  .header__li {
+    margin-bottom: 25px;
+  }
+
+  .button {
+    font-size: 16px;
+    padding: 22px 36px;
+  }
+
+  .hero {
+    min-height: 462px;
+  }
+  .hero__title {
+    font-size: 38px;
+    line-height: 123%;
+    margin-bottom: 30px;
+  }
+  .hero__mean {
+    max-width: 298px;
+    margin-bottom: 48px;
+  }
+
+  .process {
+    padding: 80px 0 10px;
+  }
+  .process__card-box {
+    margin-bottom: 7px;
+  }
+  .process__card-box_photo {
+    height: 286px;
+  }
+  .process__card-box_title {
+    font-size: 18px;
+    line-height: 19px;
+  }
+
+  .title {
+    line-height: 101%;
+    font-size: 26px;
+  }
+
+  .our-history {
+    padding: 40px 0 0;
+  }
+  .our-history__card-box {
+    grid-gap: 0;
+  }
+  .our-history__rule-photo {
+    height: 90%;
+    width: 72%;
+  }
+  .our-history__box-about {
+    max-width: 290px;
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .our-history__element-1 {
+    grid-row: 2;
+    grid-column: 1/3;
+    padding: 20px 0 0;
+  }
+  .our-history__element-2 {
+    grid-row: 3;
+    grid-column: 1/3;
+  }
+  .our-history__element-3 {
+    grid-column: 1/3;
+    grid-row: 4/7;
+  }
+  .our-history__mean {
+    font-size: 13px;
+  }
+  .our-history__photo {
+    height: 82%;
+    width: 78%;
+  }
+
+  .coffee-title {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .product__photo {
+    margin-bottom: 19px;
+    height: 238px;
+  }
+  .product__card-box {
+    max-width: 230px;
+    padding: 26px 15px;
+    margin: 0 auto 28px;
+  }
+  .product__shop-button {
+    padding: 12px;
+  }
+
+  .cta__title {
+    margin-bottom: 17px;
+  }
+  .cta__card-box {
+    padding: 26px 19px;
+  }
+  .cta__text {
+    margin-bottom: 20px;
+  }
+  .cta__button {
+    padding: 20px 30px;
+  }
+  .cta__photo {
+    width: 44%;
+  }
+  .cta__text-box {
+    margin-bottom: 37px;
+  }
+
+  .menu__title {
+    margin-bottom: 25px;
+  }
+  .menu__card-box {
+    padding: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .menu__icon {
+    height: 52px;
+    margin-bottom: 10px;
+  }
+  .menu__time {
+    position: absolute;
+    right: 17px;
+  }
+
+  .testimonial__card-box {
+    height: 296px;
+  }
+  .testimonial__photo {
+    margin: 0 auto;
+  }
+  .testimonial__text {
+    display: none;
+  }
+  .testimonial__name {
+    font-size: 17px;
+    top: 190px;
+    right: 63px;
+  }
+  .testimonial__position {
+    top: 207px;
+    right: 48px;
+  }
+  .testimonial__icon {
+    height: 16px;
+  }
+  .testimonial__icon-box {
+    top: 258px;
+    right: 58px;
+  }
+  .testimonial__item:before, .testimonial__item:after {
+    top: 20px;
+  }
+  .testimonial__item:before {
+    width: 35px;
+  }
+  .testimonial__item:after {
+    width: 56px;
+    left: 34px;
+  }
+  .testimonial__button_black {
+    margin-right: 5px;
+  }
+  .testimonial__buttons-photo {
+    height: 18px;
+  }
+
+  .reservation {
+    padding: 40px 0 65px;
+  }
+  .reservation__card-box {
+    min-height: 393px;
+  }
+  .reservation__photo {
+    display: none;
+  }
+  .reservation__input {
+    font-size: 16px;
+  }
+  .reservation__button {
+    padding: 20px 30px;
+  }
+
+  .news__name {
+    margin-bottom: 9px;
+    padding-right: 76px;
+  }
+  .news__date {
+    margin-left: 68px;
+  }
+  .news__card-box {
+    max-width: 260px;
+  }
+  .news__text-box {
+    min-height: 155px;
+  }
+  .news__photo {
+    height: 255px;
+  }
+  .news__mean {
+    padding: 10px 0 0;
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+
+  .footer__photo {
+    margin: 0 auto 25px;
+  }
+  .footer__input {
+    padding: 14px 0 15px 17px;
+    font-size: 15px;
+  }
+  .footer__label {
+    margin: 0 auto;
+  }
+  .footer__button_photo {
+    height: 32px;
+  }
+}
+

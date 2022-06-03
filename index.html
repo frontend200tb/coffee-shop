@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Иван Каширин">
+  <meta name="copyright" content="200TB Web Studio">
+  <meta name="description" content="учебная верстка сайта Coffee Shop">
+  <meta name="keywords" content="frontend200tb, учебная верстка сайта">
+
+  <title>Иван Каширин Coffee Shop</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container">
+    <div class="header__menu">
+
+      <div class="header__burger">
+        <span></span>
+      </div>
+
+      <nav class="header__nav">
+        <ul class="header__ul" id="header__ul">
+          <li class="header__li"><a data-goto="#home" href="#home" class="header__link">Home</a></li>
+          <li class="header__li"><a data-goto="#about" href="#about" class="header__link">About</a></li>
+          <li class="header__li"><a data-goto="#menu" href="#menu" class="header__link">Menu</a></li>
+          <li class="header__li"><a data-goto="#reserv" href="#reserv" class="header__link">Reservation</a></li>
+          <li class="header__li header__li_photo"></li>
+          <li class="header__li"><a data-goto="#bag" href="#bag" class="header__link">Pages</a></li>
+          <li class="header__li"><a data-goto="#shop" href="#shop" class="header__link">Shop</a></li>
+          <li class="header__li"><a data-goto="#contact" href="#contact" class="header__link">Contact</a></li>
+        </ul>
+      </nav>
+      <img class="header__logo_photo" src="assets/svg/coffee-logo.svg" alt="coffee">
+      <div class="header__search-box">
+        <label for="search"></label>
+        <input type="text" class="header__search" id="search" placeholder="Enter">
+        <a class="header__search-bth" href="#" >
+          <i class="fas fa-search"></i>
+        </a>
+      </div>
+      <img class="header__logo_icon-bag" src="assets/svg/shopping-bag.svg" alt="shopping-bag">
+    </div>
+  </div>
+</header>
+<!-- HEADER -->
+
+
+<!-- MAIN -->
+<main class="main"></main>
+
+  <!-- HERO -->
+  <div id="home" class="hero">
+    <div class="container">
+      <div class="hero__title">
+        Enjoy Your
+        Morning Coffee.
+      </div>
+      <div class="subtitle hero__mean">
+        The coofee is brewed by fist roasting the green coffee beans over hot coals in brazier. given to Opportunity
+      </div>
+      <button class="button hero__button">Test Coffee</button>
+    </div>
+  </div>
+  <!-- /HERO -->
+
+
+  <!-- PROCESS -->
+  <div class="process">
+    <div class="container">
+        <div class="row process__row">
+          <div class="col-4 process__col-4">
+              <div class="process__card-box">
+                <div class="process__card-box_title">
+                  <span class="process__card-box_number">01</span>
+                  Best Coffee Flavour
+                </div>
+                <img class="process__card-box_photo" src="assets/img/process-photo.png" alt="coffee" >
+              </div>
+            </div>
+          <div class="col-4 process__col-4">
+            <div class="process__card-box">
+              <div class="process__card-box_title">
+                <span class="process__card-box_number">02</span>
+                Place to get lost
+              </div>
+              <img class="process__card-box_photo" src="assets/img/process-photo-2.png" alt="coffee" >
+            </div>
+          </div>
+          <div class="col-4 process__col-4">
+            <div class="process__card-box">
+              <div class="process__card-box_title">
+                <span class="process__card-box_number">03</span>
+                Proper roesting
+              </div>
+              <img class="process__card-box_photo" src="assets/img/process-photo-3.png" alt="coffee" >
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!-- /PROCESS -->
+
+
+  <!-- HISTORY -->
+  <div id="about" class="our-history">
+    <div class="container">
+        <div class="our-history__card-box">
+            <div class="our-history__element-1">
+              <img class="our-history__photo" src="assets/img/our-history-photo-3.png" alt="our-history-coffee" >
+            </div>
+          <div class="our-history__element-3">
+            <img class="our-history__rule-photo" src="assets/img/our-history-photo.png" alt="our-history-coffee" >
+          </div>
+          <div class="our-history__box-about">
+            <div class="pod-title our-history__subtitle">Our history</div>
+            <div class="title our-history__title">
+              Create  a <br>
+              new story with us
+            </div>
+            <div class="subtitle our-history__mean">
+              mauris rhoncus in imperdiet placerat. vestibu emismd nisl suscirpit ligula volutpat, a feyguat urn maxmaus. cars massa nibhtincidunt. donec et nibh maximus, est eu, mattis nuce. preasent ut quam quis quam venen
+              atis fringilla. morbi vastibulum id tells mmodo mattis. aliauam erat volutpal.
+            </div>
+          </div>
+          <div class="our-history__element-2">
+            <img class="our-history__photo" src="assets/img/our-history-photo-2.png" alt="our-history-coffee" >
+          </div>
+        </div>
+    </div>
+  </div>
+  <!-- /HISTORY -->
+
+
+  <!-- PRODUCT -->
+  <div id="shop" class="product">
+    <div class="container">
+      <div class="pod-title product__pod-title">Popular Product</div>
+      <div class="title product__title">Coffee popular Product</div>
+      
+      <div class="row product__row">
+
+        <div class="col-4 product__col-4">
+          <div class="product__card-box">
+
+            <img src="assets/img/product-coffee.png" alt="coffee" class="product__photo">
+
+            <div class="pod-title product__star-title">Coffee
+              <div class="product__star-box">
+                <img class="product__photo-star" src="assets/svg/star.svg" alt="star">
+                <img class="product__photo-star"  src="assets/svg/star.svg" alt="star">
+                <img class="product__photo-star"  src="assets/svg/star.svg" alt="star">
+                <img class="product__photo-star"  src="assets/svg/star.svg" alt="star">
+                <img class="product__photo-star"  src="assets/svg/empty-star.svg" alt="empty-star">
+              </div>
+            </div>
+
+            <div class="coffee-title product__card-box_margin">brazil coffee gred</div>
+
+            <div class="product__coffee-cost">
+              Price - <span class="product__coffee-cost_orange" > $320.00/ </span>  $358
+            </div>
+
+            <button class="button product__shop-button">
+              <img class="product__button-icon" src="assets/svg/shopping-bag.svg" alt="bag">Add to cart
+            </button>
+
+          </div>
+        </div>
+
+
+        <div class="col-4 product__col-4">
+          <div class="product__card-box">
+
+            <img src="assets/img/product-coffee.png" alt="coffee" class="product__photo">
+
+            <div class="pod-title product__star-title">Coffee
+              <div class="product__star-box">
+                <img class="product__photo-star" src="assets/svg/star.svg" alt="star">
+                <img class="product__photo-star"  src="assets/svg/star.svg" alt="star">
+                <img class="product__photo-star"  src="assets/svg/star.svg" alt="star">
+                <img class="product__photo-star"  src="assets/svg/star.svg" alt="star">
+                <img class="product__photo-star"  src="assets/svg/empty-star.svg" alt="empty-star">
+              </div>
+            </div>
+
+            <div class="coffee-title product__card-box_margin">brazil coffee gred</div>
+
+            <div class="product__coffee-cost">
+              Price - <span class="product__coffee-cost_orange" > $320.00/ </span>  $358
+            </div>
+
+            <button class="button product__shop-button">
+              <img class="product__button-icon" src="assets/svg/shopping-bag.svg" alt="bag">Add to cart
+            </button>
+
+          </div>
+        </div>
+
+        <div class="col-4 product__col-4">
+          <div class="product__card-box">
+
+            <img src="assets/img/product-coffee.png" alt="coffee" class="product__photo">
+
+            <div class="pod-title product__star-title">Coffee
+              <div class="product__star-box">
+                <img class="product__photo-star" src="assets/svg/star.svg" alt="star">
+                <img class="product__photo-star"  src="assets/svg/star.svg" alt="star">
+                <img class="product__photo-star"  src="assets/svg/star.svg" alt="star">
+                <img class="product__photo-star"  src="assets/svg/star.svg" alt="star">
+                <img class="product__photo-star"  src="assets/svg/empty-star.svg" alt="empty-star">
+              </div>
+            </div>
+
+            <div class="coffee-title product__card-box_margin">brazil coffee gred</div>
+
+            <div class="product__coffee-cost">
+              Price - <span class="product__coffee-cost_orange" > $320.00/ </span>  $358
+            </div>
+
+            <button class="button product__shop-button">
+              <img class="product__button-icon" src="assets/svg/shopping-bag.svg" alt="bag">Add to cart
+            </button>
+
+          </div>
+        </div>
+      </div>
+
+      <button class="button button-white button-animated product__button">View all product</button>
+    </div>
+  </div>
+  <!-- /PRODUCT -->
+
+
+  <!-- CTA -->
+  <div id="bag" class="cta">
+    <div class="container">
+      <div class="cta__card-box">
+        <img class="cta__photo" src="assets/img/cta-mixer.png" alt="mixer" >
+        <div class="cta__text-box">
+          <div class="title cta__title">
+            Coffee <br>
+            machine, buy for home
+          </div>
+          <div class="subtitle cta__text">
+            mauris rhoncus in imperdiet placerat. vestibu emismd nisl suscirpit ligula
+            volutpat, a feyguat urn maxmaus. cars massa nibhtincidunt. donec et nib
+            maximus, est eu, mattis nuce. preasent ut quam quis quam venen atis fri
+            ngilla. morbi vastibulum id tells mmodo mattis. aliauam erat volutpal.
+          </div>
+          <button class="button cta__button">Discover now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /CTA -->
+
+
+  <!-- MENU -->
+  <div id="menu" class="menu">
+    <div class="container">
+      <div class="pod-title munu__pod-title">Menu</div>
+      <div class="title menu__title">Coffee popular menu</div>
+      <div class="row menu__row">
+        <div class="col-6 menu__col-6">
+          <div class="menu__card-box">
+            <img class="menu__icon" src="assets/img/menu-icon.png" alt="menu-icon" >
+            <div class="menu__subtitle">Americano rosted gred</div>
+            <div class="pod-title menu__time">$12:00</div>
+          </div>
+        </div>
+        <div class="col-6 menu__col-6">
+          <div class="menu__card-box">
+            <img class="menu__icon" src="assets/img/menu-icon-5.png" alt="menu-icon" >
+            <div class="menu__subtitle">Americano rosted gred</div>
+            <div class="pod-title menu__time">$12:00</div>
+          </div>
+        </div>
+        <div class="col-6 menu__col-6">
+          <div class="menu__card-box">
+            <img class="menu__icon" src="assets/img/menu-icon-4.png" alt="menu-icon" >
+            <div class="menu__subtitle">Americano rosted gred</div>
+            <div class="pod-title menu__time">$12:00</div>
+          </div>
+        </div>
+        <div class="col-6 menu__col-6">
+          <div class="menu__card-box">
+            <img class="menu__icon" src="assets/img/menu-icon-6.png" alt="menu-icon" >
+            <div class="menu__subtitle">Americano rosted gred</div>
+            <div class="pod-title menu__time">$12:00</div>
+          </div>
+        </div>
+        <div class="col-6 menu__col-6">
+          <div class="menu__card-box">
+            <img class="menu__icon" src="assets/img/menu-icon-3.png" alt="menu-icon" >
+            <div class="menu__subtitle">Americano rosted gred</div>
+            <div class="pod-title menu__time">$12:00</div>
+          </div>
+        </div>
+        <div class="col-6 menu__col-6">
+          <div class="menu__card-box">
+            <img class="menu__icon" src="assets/img/menu-icon-7.png" alt="menu-icon" >
+            <div class="menu__subtitle">Americano rosted gred</div>
+            <div class="pod-title menu__time">$12:00</div>
+          </div>
+        </div>
+        <div class="col-6 menu__col-6">
+          <div class="menu__card-box">
+            <img class="menu__icon" src="assets/img/menu-icon-2.png" alt="menu-icon" >
+            <div class="menu__subtitle">Americano rosted gred</div>
+            <div class="pod-title menu__time">$12:00</div>
+          </div>
+        </div>
+        <div class="col-6 menu__col-6">
+          <div class="menu__card-box">
+            <img class="menu__icon" src="assets/img/menu-icon-8.png" alt="menu-icon" >
+            <div class="menu__subtitle">Americano rosted gred</div>
+            <div class="pod-title menu__time">$12:00</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /MENU -->
+
+
+  <!-- TESTIMONIAL -->
+  <div id="blogs" class="testimonial">
+    <div class="container">
+      <div class="pod-title testimonial__pod-title">
+        Testimonial
+      </div>
+      <div class="title testimonial__title">
+        Says our customers
+      </div>
+
+      <div class="testimonial__card-boxes">
+
+        <div class="testimonial__card-box">
+          <div class="testimonial__text-photo-box">
+            <img class="testimonial__photo" src="assets/img/testimonial-photo.png" alt="photo">
+            <div class="subtitle testimonial__text">
+              Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..
+            </div>
+          </div>
+          <div class="testimonial__name">John Smith</div>
+          <div class="testimonial__position">Product Designer</div>
+          <div class="testimonial__icon-box">
+            <img class="testimonial__icon" src="assets/svg/gold-star.svg" alt="gold-star">
+            <img class="testimonial__icon" src="assets/svg/gold-star.svg" alt="gold-star">
+            <img class="testimonial__icon" src="assets/svg/gold-star.svg" alt="gold-star">
+            <img class="testimonial__icon" src="assets/svg/gold-star.svg" alt="gold-star">
+            <img class="testimonial__icon" src="assets/svg/gold-star.svg" alt="gold-star">
+          </div>
+        </div>
+
+        <div class="testimonial__card-box">
+          <div class="testimonial__text-photo-box">
+            <img class="testimonial__photo" src="assets/img/testimonial-photo-2.png" alt="photo">
+            <div class="subtitle testimonial__text">
+              Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..
+            </div>
+          </div>
+          <div class="testimonial__name">Brett Lee</div>
+          <div class="testimonial__position">User Experience Designer</div>
+          <div class="testimonial__icon-box">
+            <img class="testimonial__icon" src="assets/svg/gold-star.svg" alt="gold-star">
+            <img class="testimonial__icon" src="assets/svg/gold-star.svg" alt="gold-star">
+            <img class="testimonial__icon" src="assets/svg/gold-star.svg" alt="gold-star">
+            <img class="testimonial__icon" src="assets/svg/gold-star.svg" alt="gold-star">
+            <img class="testimonial__icon" src="assets/svg/gold-star.svg" alt="gold-star">
+          </div>
+        </div>
+
+        <div class="testimonial__card-box">
+          <div class="testimonial__text-photo-box">
+            <img class="testimonial__photo" src="assets/img/testimonial-photo.png" alt="photo">
+            <div class="subtitle testimonial__text">
+              Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..
+            </div>
+          </div>
+          <div class="testimonial__name">John Smith</div>
+          <div class="testimonial__position">Product Designer</div>
+          <div class="testimonial__icon-box">
+            <img class="testimonial__icon" src="assets/svg/gold-star.svg" alt="gold-star">
+            <img class="testimonial__icon" src="assets/svg/gold-star.svg" alt="gold-star">
+            <img class="testimonial__icon" src="assets/svg/gold-star.svg" alt="gold-star">
+            <img class="testimonial__icon" src="assets/svg/gold-star.svg" alt="gold-star">
+            <img class="testimonial__icon" src="assets/svg/gold-star.svg" alt="gold-star">
+          </div>
+        </div>
+
+        <div class="testimonial__card-box">
+          <div class="testimonial__text-photo-box">
+            <img class="testimonial__photo" src="assets/img/testimonial-photo-2.png" alt="photo">
+            <div class="subtitle testimonial__text">
+              Education WP is a special build for effective education & Learning Management System site. Education WP is the next generation & one of the best education WordPress themes which all the strength of eLearning WP..
+            </div>
+          </div>
+          <div class="testimonial__name">Brett Lee</div>
+          <div class="testimonial__position">User Experience Designer</div>
+          <div class="testimonial__icon-box">
+            <img class="testimonial__icon" src="assets/svg/gold-star.svg" alt="gold-star">
+            <img class="testimonial__icon" src="assets/svg/gold-star.svg" alt="gold-star">
+            <img class="testimonial__icon" src="assets/svg/gold-star.svg" alt="gold-star">
+            <img class="testimonial__icon" src="assets/svg/gold-star.svg" alt="gold-star">
+            <img class="testimonial__icon" src="assets/svg/gold-star.svg" alt="gold-star">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="testimonial__navigation">
+        <div class="pod-title testimonial__item">
+          4/6 People
+        </div>
+        <div class="testimonial__buttons">
+          <button class="testimonial__button testimonial__button_black">
+            <img class="testimonial__buttons-photo" src="assets/img/white-vector.png" alt="white-vector">
+          </button>
+          <button class="testimonial__button testimonial__button_white">
+            <img class="testimonial__buttons-photo" src="assets/img/black-vector.png" alt="black-vector">
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- /TESTIMONIAL -->
+
+
+  <!-- RESERVATION -->
+  <div id="reserv" class="reservation">
+    <div class="container">
+        <div class="reservation__card-box">
+          <img class="reservation__photo" src="assets/img/reservation-photo.png" alt="photo">
+          <div class="reservation__form-box">
+            <div class="pod-title reservation__pod-title">Reservation</div>
+            <div class="title reservation__title">Booking a table</div>
+            <form >
+              <label class="reservation__label" for="person" ></label>
+              <input class="reservation__input" placeholder="4 person"  type="text" id="person">
+              <label class="reservation__label" for="date" ></label>
+              <input class="reservation__input" placeholder="03.06.2022"  type="text" id="date">
+              <label class="reservation__label" for="time" ></label>
+              <input class="reservation__input reservation__input_margin" placeholder="11:00 AM"  type="text" id="time">
+              <button class="button reservation__button">BOOK S TABLE</button>
+            </form>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!-- /RESERVATION -->
+
+
+  <!-- NEWS -->
+  <div id="news" class="news">
+    <div class="container">
+      <div class="pod-title news__pod-title">Coffee Shop</div>
+      <div class="title news__title">Our latest news</div>
+      <div class="row news__row">
+        <div class="col-4 news__col-4">
+          <div class="news__card-box">
+            <img class="news__photo" src="assets/img/news.png" alt="photo">
+            <div class="news__text-box">
+              <div class="news__name">
+                <span class="news__name_orange">By: </span>
+                rasaline
+              </div>
+              <div class="news__date" >03.06.2022</div>
+              <div class="news__mean">
+                Ideal cocktails from barmen....
+              </div>
+              <div class="pod-title news__link">
+                Read More <img class="news__link_photo" src="assets/svg/news-arrow-right.svg" alt="arrow-right">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 news__col-4">
+          <div class="news__card-box">
+            <img class="news__photo" src="assets/img/news-2.png" alt="photo">
+            <div class="news__text-box">
+              <div class="news__name">
+                <span class="news__name_orange">By: </span>
+                rasaline
+              </div>
+              <div class="news__date" >03.06.2022</div>
+              <div class="news__mean">
+                Ideal cocktails from barmen....
+              </div>
+              <div class="pod-title news__link">
+                Read More <img class="news__link_photo" src="assets/svg/news-arrow-right.svg" alt="arrow-right">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 news__col-4">
+          <div class="news__card-box">
+            <img class="news__photo" src="assets/img/news-3.png" alt="photo">
+            <div class="news__text-box">
+              <div class="news__name">
+                <span class="news__name_orange">By: </span>
+                rasaline
+              </div>
+              <div class="news__date" >03.06.2022</div>
+              <div class="news__mean">
+                Ideal cocktails from barmen....
+              </div>
+              <div class="pod-title news__link">
+                Read More <img class="news__link_photo" src="assets/svg/news-arrow-right.svg" alt="arrow-right">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /NEWS -->
+
+
+</main>
+<!-- /MAIN -->
+
+
+<!-- FOOTER -->
+<footer id="contact" class="footer">
+  <div class="container">
+      <div class="footer__menu-box">
+        <img class="footer__photo" src="assets/svg/coffee-logo.svg" alt="coffe-logo">
+        <nav class="footer__nav">
+          <ul class="footer__ul">
+            <li class="footer__li"><a href="#home" class="footer__link">Home</a></li>
+            <li class="footer__li"><a href="#reserv" class="footer__link">Rerervation</a></li>
+            <li class="footer__li"><a href="#menu" class="footer__link">Menu</a></li>
+            <li class="footer__li"><a href="#about" class="footer__link">About</a></li>
+            <li class="footer__li"><a href="#bag" class="footer__link">Pages</a></li>
+            <li class="footer__li"><a href="#shop" class="footer__link">Shop</a></li>
+            <li class="footer__li"><a href="#blogs" class="footer__link">Blogs</a></li>
+          </ul>
+        </nav>
+        <label class="footer__label" >
+          <input class="footer__input" type="text" placeholder="Enter your e-mail">
+          <button class="footer__button"  type="button"><a class="footer__button_link" href="mailto:user@gmail.com">
+            <img class="footer__button_photo" src="assets/img/yellow-vector_button.png" alt="yellow-vector"></a>
+          </button>
+        </label>
+      </div>
+  </div>
+  <div class="footer__title">
+    <a href="https://github.com/frontend200tb/" class="footer__link">frontend200tb © 2022 All rights reserved.</a>
+  </div>
+</footer>
+<!-- /FOOTER -->
+
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
